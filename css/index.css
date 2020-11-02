@@ -1,0 +1,73 @@
+.container{
+      width: 70%;
+      margin: auto;
+}
+
+.header{
+      display: flex;
+      padding: 10px;
+}
+
+.newspaper-title{
+      font-size: 3rem;
+}
+
+.newspaper-title h1{
+      margin: 0px;
+}
+
+.newspaper-title p {
+      font-size: 25px;
+}
+
+.invert-theme-color, .date{
+      color : white !important;
+      padding : 6px;
+      background : #222;
+}
+
+.newspaper-info{
+      text-align: right;
+    flex: auto;
+      background: #eee;
+    padding: 20px;
+    max-width: 300px;
+    margin-left: 100px;
+}
+
+.top-headlines , .news-of-the-day{
+      display : flex;
+      padding : 20 px;
+}
+
+.top-headline-titles ul{
+      list-style: none;
+}
+
+li a{
+      color : white ;
+}
+
+.timestamp{
+      color: #666;
+      font-size: 13px;    
+}
+
+
+.left img{
+      width: 100%;
+}
+
+.news-of-the-day div{
+      padding:20px;
+}
+
+.news-of-the-day .right{
+      background-image: url(../images/bg.jpeg);
+      color: white;
+}
+
+a{
+      text-decoration: none;
+      color: black;
+}
